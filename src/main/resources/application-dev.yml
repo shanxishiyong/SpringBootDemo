@@ -8,7 +8,7 @@ spring:
       jdbc-url: jdbc:mysql://192.168.90.112:3306/sy_dev?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
       driver-class-name: com.mysql.jdbc.Driver
 mybatis:
-  mapper-locations: classpath:mapping/*Mapper.xml
-  type-aliases-package: com.example.entity
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.example.demo1.entity
 logging:
-  config: classpath:/logback-spring.xml
+  config: classpath:logback-spring.xml
